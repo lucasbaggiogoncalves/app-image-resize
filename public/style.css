@@ -1,0 +1,66 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin-top: 150px;
+  background-color: #05132c;
+}
+
+h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 2.5rem;
+  color: #101010;
+  text-align: center;
+  margin-top: 20px;
+  background: linear-gradient(to right, #7d619b, #d9d9d9);
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+}
+
+#container-button {
+  display: flex;
+}
+
+.custom-file-upload {
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 20px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #7d619b;
+  background-color: #2c2c2c;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 48px 35px -48px #7d619b;
+}
+
+.custom-file-upload .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-file-upload .icon svg {
+  height: 80px;
+  fill: #e8e8e8;
+}
+
+.custom-file-upload .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-file-upload .text span {
+  font-weight: 400;
+  color: #e8e8e8;
+}
+
+.custom-file-upload input {
+  display: none;
+}
