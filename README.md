@@ -6,4 +6,4 @@ The front end utilizes AWS Amplify, while the back end is powered by the AWS Lam
 
 ## Diagram
 
-[Link](./docs/diagram.png)
+![Diagram](./docs/diagram.png)
